@@ -1,0 +1,46 @@
+.App {
+    margin: 10px 10px;
+}
+
+.label {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.notes-label {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.text-area {
+    width: 500px;
+    border: 1px solid black;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    width: calc(100% - 12px);
+    resize: none;
+    padding: 6px;
+}
+
+.text-area button {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.notes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
